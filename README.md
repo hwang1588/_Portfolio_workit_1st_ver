@@ -16,4 +16,4 @@
 <img src="https://github.com/hwang1588/repo_img_src/blob/main/_portfolio_workit_1st_ver/pc1.png">
 
 ### - MOBILE
-<img src="https://github.com/hwang1588/repo_img_src/blob/main/_portfolio_workit_1st_ver/mobile1.png">
+<img src="https://github.com/hwang1588/repo_img_src/blob/main/_portfolio_workit_1st_ver/mobile2.png">
