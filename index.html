@@ -4,7 +4,7 @@
 <head>
     <!--en type site-->
     <meta charset="utf-8">
-    <title>WORKit</title>
+    <title>WORKIT</title>
     <link rel="icon" type="image/png" sizes="192x192" href="img/favicon.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="css/common.css" rel="stylesheet" type="text/css">
@@ -22,8 +22,12 @@
 <body>
     <div id="wrap" class="container-fluid px-0">
         <div class="row">
-            <div class="bg_container px-0">
+            <div class="bg_container px-0  d-none d-lg-block
+            ">
                 <img src="img/main_bg.svg" class="bg_img">
+            </div>
+            <div class="bg_container px-0 d-block d-lg-none" style="margin-bottom: 10vw;">
+                <img src="img/main_bg_mobile.svg" class="bg_img">
             </div>
         </div>
         <header id="header" class="">
@@ -48,11 +52,20 @@
         <div id="visual">
             <div class="container mx-auto">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 d-none d-lg-block">
                         <div class="text-center text-body fs-1 mb-5">
-                            <div style="font-weight: 600;">Start work with WORKit
+                            <div style="font-weight: 600;">Start work with WORKIT
                             </div>
                             <div class="text-muted fs-5 mt-2">Find the most suitable freelancers regardless of
+                                their location
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-block d-lg-none" style="margin: 9vw 0vw 9vw 0vw;">
+                        <div class="text-center text-body mb-5" style="font-size: 6vw">
+                            <div style="font-weight: bold;">Start work with WORKIT
+                            </div>
+                            <div class="text-muted fs-2 mt-2">Find the most suitable freelancers regardless<br> of
                                 their location
                             </div>
                         </div>
@@ -92,6 +105,23 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container mt-5">
+                <div class="row pt-5">
+                    <div class="col-12 d-block d-lg-none py-5">
+                        <div class="text-center text-body mb-5" style="font-size: 6vw" data-aos="zoom-in"
+                            data-aos-delay="50" data-aos-duration="800">
+                            <div style="font-weight: 600;">Platforms to Protocols
+                            </div>
+                            <div class="text-muted fs-2 mt-2">Blockchain protocols allow market actors to verify
+                                transactions and enforce contracts, while<br>
+                                preserving data privacy.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container-fluid px-0 d-none d-lg-block">
                 <div class="row">
                     <div class="col-6 my-4 pe-2" data-aos="zoom-in">
@@ -116,12 +146,23 @@
 
             <div class="container mt-5 pb-5">
                 <div class="row pt-5">
-                    <div class="col-12 pt-5" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="800">
+                    <div class="col-12 pt-5 d-none d-lg-block
+                    " data-aos="zoom-in" data-aos-delay="50" data-aos-duration="800">
                         <div class="text-center text-body fs-1 mb-5">
-                            <div style="font-weight: 600;">WORKit Features
+                            <div style="font-weight: 600;">WORKIT Features
                             </div>
-                            <div class="text-muted fs-5 mt-2">WORKit puts trust as top priority. All features of WORKit
+                            <div class="text-muted fs-5 mt-2">WORKIT puts trust as top priority. All features of WORKIT
                                 aims to support trust between clinets and freelancers.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-block d-lg-none mt-5">
+                        <div class="text-center text-body mb-5" style="font-size: 6vw" data-aos="zoom-in"
+                            data-aos-delay="50" data-aos-duration="800">
+                            <div style="font-weight: 600;">WORKIT Features
+                            </div>
+                            <div class="text-muted fs-2 mt-2">Trust as Top Priority. All features of WORKit aim to 
+                                support trust between clinets and free lancers.
                             </div>
                         </div>
                     </div>
@@ -168,12 +209,19 @@
 
                 <div class="container d-block d-lg-none">
                     <div class="row pt-5">
-                        <div class="col-12 pt-3 text-center">
+                        <div class="col-12 pt-3 text-center d-none d-lg-block">
                             <div class="text-left text-body mb-5" style="font-size: 60px">
-                                <div style="font-weight: 600;">WORKIT Features
+                                <div style="font-weight: 600;">Prime Service
                                 </div>
-                                <div class="text-muted fs-5 mt-2">$WKIT stakers receive Prime benefits and rewards. 
-                                    Diverse benefits are exclusive for Prime accounts only.
+                                <div class="text-muted fs-5 mt-2">$WKIT stakers receive Prime benefits and rewards. Diverse benefits are exclusive for Prime accounts only.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pt-3 text-center d-block d-lg-none">
+                            <div class="text-left text-body mb-5" style="font-size: 6vw">
+                                <div style="font-weight: 600;">Prime Service
+                                </div>
+                                <div class="text-muted fs-2 mt-2">$WKIT stakers receive Prime benefits and rewards. Diverse benefits are exclusive for Prime accounts.
                                 </div>
                             </div>
                         </div>
@@ -182,9 +230,20 @@
                 <div class="row pb-5">
                     <div class="mb-3 col-12 col-xl-6" data-aos="zoom-in">
                         <img src="img/prime_service.svg" class="float-none float-xl-end d-lg-block d-none">
-                        <img src="img/mobile_prime_service.svg" class="float-none float-xl-end d-block d-lg-none mx-auto w-75">
+                        <img src="img/mobile_prime_service.svg"
+                            class="float-none float-xl-end d-block d-lg-none mx-auto w-75">
                     </div>
-                    <div class="col-12 col-xl-6 fs-3  text-center text-xl-start" data-aos="zoom-in">
+                    <div class="col-xl-6 fs-3 text-xl-start d-none d-lg-block" data-aos="zoom-in">
+                        <div style="font-weight: 600;">- Return of commission for all contracts
+                        </div>
+                        <div class="mt-5" style="font-weight: 600;">- Lower dispute fee
+                        </div>
+                        <div class="mt-5" style="font-weight: 600;">- Visually highlighted profile from search result
+                        </div>
+                        <div class="mt-5" style="font-weight: 600;">- Higher Referral rewards
+                        </div>
+                    </div>
+                    <div class="col-12 fs-2 text-start d-block d-lg-none py-5" data-aos="zoom-in" style="margin: 0 14vw 0 14vw">
                         <div style="font-weight: 600;">- Return of commission for all contracts
                         </div>
                         <div class="mt-5" style="font-weight: 600;">- Lower dispute fee
@@ -207,7 +266,7 @@
                         <div class="footer_logo mt-5">
                             <img src="img/logo.svg" class="w-100 h-100">
                         </div>
-                        <div class="text-center text-muted fs-6 mt-4 mb-2">©2022 WORKit All rights reserved</div>
+                        <div class="text-center text-muted fs-6 mt-4 mb-2">©2022 WORKIT All rights reserved</div>
                     </div>
                     <div class="row">
                         <div class="col-12 d-flex flex-center mt-2">
@@ -222,12 +281,12 @@
                                 </a>
                             </span>
                             <span class="nav-link text-center">
-                                <a href="https://www.instagram.com/workit.wkit/" title="Wkit Instagram">
+                                <a href="https://www.instagram.com/WORKIT.wkit/" title="Wkit Instagram">
                                     <img src="img/icon_insta.svg" class="w-100 cursor-pointer">
                                 </a>
                             </span>
                             <span class="nav-link text-center">
-                                <a href="https://twitter.com/workit_wkit" title="Wkit Twitter">
+                                <a href="https://twitter.com/WORKIT_wkit" title="Wkit Twitter">
                                     <img src="img/icon_twitter.svg" class="w-100 cursor-pointer">
                                 </a>
                             </span>
